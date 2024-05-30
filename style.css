@@ -25,6 +25,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* -----------utility---------- */
 .container {
   position: relative;
@@ -90,6 +94,8 @@ img {
   font-weight: 500;
   font-size: 2rem;
   text-align: center;
+
+  animation: name 1s ease-in-out 0s 1;
 }
 
 .info h4 {
@@ -417,7 +423,7 @@ img {
   gap: 10px;
 }
 .education-card {
-  background: rgba(247, 249, 252, 1);
+  background: var(--secondary-color);
   border-radius: 5px;
   flex-basis: 400px;
   flex-grow: 1;
@@ -583,6 +589,17 @@ img {
   }
 }
 
+@keyframes name {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 /* ------------------------- */
 
 /* ======Media Queries ========== */
@@ -612,7 +629,6 @@ img {
 @media (min-width: 768px) {
   main {
     flex-direction: row;
-    border: 2px solid red;
   }
   .right {
     padding-top: 30px;
@@ -648,7 +664,6 @@ img {
   }
   .quote {
     text-align: left;
-    border: 1px solid red;
     padding: 0px;
   }
 
@@ -660,5 +675,3 @@ img {
     padding: 30px;
   }
 }
-
-/*  */
