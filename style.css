@@ -241,8 +241,6 @@ img {
 
 .timeline-2::before {
   animation: line 1s ease-in-out 1 1s forwards;
-  animation: name duration timing-function delay iteration-count direction
-    fill-mode;
 }
 
 .timeline-3::before {
