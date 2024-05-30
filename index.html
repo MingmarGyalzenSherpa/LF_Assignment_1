@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+        parent component
+     -->
+    <main>
+      <!-- left container -->
+      <section class="left">
+        <!-- introductory -->
+        <section class="intro">
+          <!-- container for image -->
+          <div class="img-container">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <section class="info">
+            <h2>Chiara Bianchi</h2>
+            <h4>Product Designer</h4>
+
+            <!-- quote -->
+            <section class="quote container">
+              <p>Design isn't finished until somebody is using it</p>
+              <!-- quote author -->
+
+              <span class="author">Brenda Laurel</span>
+            </section>
+            <!-- quote -->
+          </section>
+        </section>
+        <!-- contacts -->
+        <section class="contacts personal-info container border-top flex">
+          <ul class="flex">
+            <!-- contact -->
+
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/mail.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Email</p>
+                <p class="detail-value">chiara.bianchi@gmail.com</p>
+              </div>
+            </li>
+            <!-- contact -->
+
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/website.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Website</p>
+                <p class="detail-value">https://aldesign.it</p>
+              </div>
+            </li>
+            <!-- contact -->
+
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/phone.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Phone</p>
+                <p class="detail-value">(+39) 333 0123 765</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <!-- contact -->
+
+              <div class="logo">
+                <img src="./images/location.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Address</p>
+                <p class="detail-value">Bologna, Italy</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- contacts -->
+        <section class="socials container border-top">
+          <h4 class="left-h4">Socials</h4>
+          <ul class="socials-container flex">
+            <li class="list-item">
+              <!-- a social -->
+
+              <div class="logo">
+                <img src="./images/instagram.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Instagram</p>
+                <p class="detail-value">@chiara.designs</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <!-- a social -->
+
+              <div class="logo">
+                <img src="./images/dribble.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Dribble</p>
+                <p class="detail-value">@chiara-designs</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <!-- a social -->
+
+              <div class="logo">
+                <img src="./images/twitter.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-title">Twitter</p>
+                <p class="detail-value">@chiaradesigns</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <!-- a social -->
+              <div class="logo">
+                <img src="./images/linkedin.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-value">chiara-bianchi-123</p>
+                <p class="detail-title">Linkedin</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="languages container personal-info border-top">
+          <h4 class="left-h4">Language</h4>
+          <ul class="flex">
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/Italy.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-value">Italian</p>
+                <p class="detail-title">Native</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/Greece.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-value">Greek</p>
+                <p class="detail-title">Native</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/UK.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-value">English</p>
+                <p class="detail-title">Professional working</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="logo">
+                <img src="./images/Spain.png" alt="" />
+              </div>
+              <div class="details">
+                <p class="detail-value">Spanish</p>
+                <p class="detail-title">Elementary</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- left container -->
+      <section class="right">
+        <div class="container right-container">
+          <section class="latest-project timeline-container timeline-1">
+            <h2 class="right-h2">Latest Project</h2>
+            <div class="latest-project-card-container">
+              <div class="latest-project-card">
+                <div class="col col-1">
+                  <div class="latest-project-card-image">
+                    <img src="./images/figma-card-logo.png" alt="" />
+                  </div>
+                  <div class="latest-project-card-info">
+                    <h4>Powerful Design System</h4>
+                    <p>
+                      Figma UI Kit and Design System targeting a wide variety of
+                      use cases.
+                    </p>
+                  </div>
+                </div>
+                <div class="col col-2">
+                  <div class="latest-project-card-link-logo">
+                    <img src="./images/figma-card-link-logo.png" alt="" />
+                  </div>
+                  <a href="#">https//figma.com</a>
+                </div>
+              </div>
+              <div class="latest-project-card">
+                <div class="col col-1">
+                  <div class="latest-project-card-image">
+                    <img src="./images/modern-website-card-logo.png" alt="" />
+                  </div>
+                  <div class="latest-project-card-info">
+                    <h4>Modern Website</h4>
+                    <p>
+                      Powerful website + dashboard template for your next Chakra
+                      UI project.
+                    </p>
+                  </div>
+                </div>
+                <div class="col col-2">
+                  <div class="latest-project-card-link-logo">
+                    <img
+                      src="./images/modern-website-card-link-logo.png"
+                      alt=""
+                    />
+                  </div>
+                  <a href="#">https://ui-8.net</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container right-container">
+          <section class="timeline-container timeline-2">
+            <h2 class="right-h2">Experience</h2>
+            <div class="experience-card-container">
+              <div class="experience-card">
+                <div class="experience-card-col-1">
+                  <div class="date-and-location">
+                    <span class="date">Jul 20 - Jan 2022</span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Cupertino
+                  </div>
+                  <div class="experience-card-title">
+                    <div class="experience-card-logo">
+                      <img src="./images/apple-logo.png" alt="" />
+                    </div>
+                    <div class="title-detail">
+                      <h2>Product designer</h2>
+                      <h3>Apple</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-card-col-2">
+                  <p>
+                    Omnis minima inventore minus. Aut et incidunt. Aut fugiat
+                    culpa illum optio dolorum aut maxime ipsa. Laborum incidunt
+                    enim consectetur perspiciatis. Dolore ullam dolor impedit
+                    dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut
+                    officia voluptatem.
+                  </p>
+                </div>
+              </div>
+              <div class="experience-card">
+                <div class="experience-card-col-1">
+                  <div class="date-and-location">
+                    <span class="date">Oct 2015 - Mar 2020</span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Austin
+                  </div>
+                  <div class="experience-card-title">
+                    <div class="experience-card-logo">
+                      <img src="./images/tesla.png" alt="" />
+                    </div>
+                    <div class="title-detail">
+                      <h2>UX designer</h2>
+                      <h3>Tesla</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-card-col-2">
+                  <p>
+                    Commodi atque sit ut qui assumenda earum aperiam occaecati
+                    voluptates. Fuga quas aut soluta nostrum et beatae. Maiores
+                    repudiandae quibusdam autem enim ut in possimus ad.
+                  </p>
+                </div>
+              </div>
+              <div class="experience-card">
+                <div class="experience-card-col-1">
+                  <div class="date-and-location">
+                    <span class="date">Sep 2014 - Aug 2015</span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Mountain View
+                  </div>
+                  <div class="experience-card-title">
+                    <div class="experience-card-logo">
+                      <img src="./images/google.png" alt="" />
+                    </div>
+                    <div class="title-detail">
+                      <h2>Design system architect</h2>
+                      <h3>Google</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-card-col-2">
+                  <p>
+                    Ut molestias animi. Neque voluptate velit corporis adipisci
+                    voluptate et qui sed neque. Inventore eos non. Qui eveniet
+                    quo incidunt nemo.
+                  </p>
+                </div>
+              </div>
+              <div class="experience-card">
+                <div class="experience-card-col-1">
+                  <div class="date-and-location">
+                    <span class="date">Sep 2010 - Jul 2013</span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Berlin
+                  </div>
+                  <div class="experience-card-title">
+                    <div class="experience-card-logo">
+                      <img src="./images/vectornator.png" alt="" />
+                    </div>
+                    <div class="title-detail">
+                      <h2>Design system architect</h2>
+                      <h3>Vectornator</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-card-col-2">
+                  <p>
+                    Non in fugiat aut consequatur deleniti. Consequuntur impedit
+                    modi asperiores impedit ut ea aut eligendi doloremque. Fugit
+                    laborum ducimus hic tempore velit. Sed vitae et corrupti
+                    omnis temporibus. Unde voluptas quaerat ea rerum aspernatur
+                    autem assumenda animi fugit. Omnis laborum velit voluptatum
+                    similique accusantium eveniet voluptatem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container right-container">
+          <section class="timeline-container timeline-3">
+            <h2 class="right-h2">Education</h2>
+            <div class="education-card-container">
+              <div class="education-card">
+                <div class="education-card-col-1">
+                  <div class="education-card-logo">
+                    <img src="/images/memorisely.png" alt="" />
+                  </div>
+                  <div class="education-card-title">Memorisely</div>
+                </div>
+                <div class="education-card-col-2">
+                  <p class="education-card-detail">Build a design system</p>
+                  <p class="education-card-date">Oct 2021</p>
+                </div>
+              </div>
+              <div class="education-card">
+                <div class="education-card-col-1">
+                  <div class="education-card-logo">
+                    <img src="/images/ux_academy.png" alt="" />
+                  </div>
+                  <div class="education-card-title">UX acadamy</div>
+                </div>
+                <div class="education-card-col-2">
+                  <p class="education-card-detail">UX Design certificate</p>
+                  <p class="education-card-date">Feb 2020</p>
+                </div>
+              </div>
+              <div class="education-card">
+                <div class="education-card-col-1">
+                  <div class="education-card-logo">
+                    <img src="/images/memorisely.png" alt="" />
+                  </div>
+                  <div class="education-card-title">Coursera</div>
+                </div>
+                <div class="education-card-col-2">
+                  <p class="education-card-detail">Usera research course</p>
+                  <p class="education-card-date">Dec 2019</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container right-container">
+          <section class="timeline-container">
+            <h2>Skills</h2>
+            <div class="skill-container">
+              <div class="skill">
+                <div class="title">
+                  <div class="skill-logo">
+                    <img src="./images/web-design-icon.png" alt="" />
+                  </div>
+                  <p>Design</p>
+                </div>
+                <div class="sub-skill">
+                  <div class="sub-skill-group-1">
+                    <div>
+                      <p>Web Design</p>
+                    </div>
+                    <div>
+                      <p>Mobile Design</p>
+                    </div>
+                  </div>
+                  <div class="sub-skill-group-2">
+                    <p>User</p>
+                    <p>Experience</p>
+                  </div>
+                  <div class="sub-skill-group-2">
+                    <ul>
+                      <li>Wireframing</li>
+                      <li>Prototyping</li>
+                      <li>Testing</li>
+                    </ul>
+                  </div>
+                  <div class="sub-skill-group-2">
+                    <p>Design</p>
+                    <p>System</p>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="title">
+                  <div class="skill-logo">
+                    <img src="./images/web-develop-logo.png" alt="" />
+                  </div>
+                  <p>Design</p>
+                </div>
+                <div class="sub-skill">
+                  <div class="sub-skill-group-2">
+                    <p>React JS</p>
+                  </div>
+
+                  <div class="sub-skill-group-2">
+                    <ul>
+                      <li>Chakra UI</li>
+                      <li>Emotion</li>
+                      <li>Framer</li>
+                    </ul>
+                  </div>
+                  <div class="sub-skill-group-1">
+                    <div>
+                      <p>Type script</p>
+                    </div>
+                    <div>
+                      <p style="width: 30px">Next JS</p>
+                    </div>
+                  </div>
+                  <div class="sub-skill-group-1">
+                    <div>
+                      <p>HTML</p>
+                    </div>
+                    <div>
+                      <p style="width: 30px">CSS JS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container right-container">
+          <div class="timeline-dot-container">
+            <h2 class="right-h2">Tools</h2>
+            <div class="tools-container">
+              <div class="tool-card">
+                <div class="tool-img">
+                  <img src="images/figma-card-logo.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Figma</p>
+                  <p class="tool-use">UI Design, prototyping</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img">
+                  <img src="images/maze.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Maze</p>
+                  <p class="tool-use">Product research</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img">
+                  <img src="images/spline.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Spline</p>
+                  <p class="tool-use">3D design</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img">
+                  <img src="images/vectornator.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Vectornator</p>
+                  <p class="tool-use">Graphic Design</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img-small">
+                  <img src="images/rotate.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Rotato</p>
+                  <p class="tool-use">Mockups</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img">
+                  <img src="images/zeppelin.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Zeplin</p>
+                  <p class="tool-use">Design workspace</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img-small">
+                  <img src="images/vscode.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">VS Code</p>
+                  <p class="tool-use">Code editor</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img-small">
+                  <img src="images/xcode.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Xcode</p>
+                  <p class="tool-use">iOS development</p>
+                </div>
+              </div>
+              <div class="tool-card">
+                <div class="tool-img-small">
+                  <img src="images/notion.png" alt="" />
+                </div>
+                <div class="tool-about">
+                  <p class="tool-name">Notion</p>
+                  <p class="tool-use">Project Management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- parent component -->
+  </body>
+</html>
