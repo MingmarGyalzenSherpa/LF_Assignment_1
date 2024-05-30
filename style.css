@@ -249,6 +249,10 @@ img {
   animation: line 1s ease-in-out 1 2s forwards;
 }
 
+.timeline-4::before {
+  animation: line 1s ease-in-out 1 3s forwards;
+}
+
 .timeline-container::after {
   content: "";
   display: block;
