@@ -110,6 +110,7 @@ img {
   font-size: 1.1rem;
   position: relative;
   margin: 0 20px;
+  display: inline-block;
 }
 
 .quote p::before {
@@ -130,7 +131,8 @@ img {
   display: block;
   position: absolute;
   bottom: 2px;
-  right: -5px;
+  right: 20px;
+
   background-image: url("./images/double-quote-closing.png");
 }
 
@@ -189,7 +191,6 @@ img {
 .right {
   position: relative;
   padding-top: 60px;
-  height: 600px;
 }
 
 .right-container {
@@ -611,6 +612,7 @@ img {
 @media (min-width: 768px) {
   main {
     flex-direction: row;
+    border: 2px solid red;
   }
   .right {
     padding-top: 30px;
@@ -643,6 +645,19 @@ img {
 
   .tool-card {
     flex-grow: 1;
+  }
+  .quote {
+    text-align: left;
+    border: 1px solid red;
+    padding: 0px;
+  }
+
+  .quote p {
+    padding: 10px;
+  }
+
+  .quote .author {
+    padding: 30px;
   }
 }
 
