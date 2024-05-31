@@ -610,13 +610,12 @@ img {
 /* phone */
 @media (max-width: 500px) {
   .flex {
-    justify-content: center;
+    justify-content: start;
   }
 
   .container {
-    width: 300px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .right > .container {
@@ -636,6 +635,10 @@ img {
   }
   .right {
     padding-top: 30px;
+  }
+
+  .flex {
+    justify-content: start;
   }
 
   .experience-card {
