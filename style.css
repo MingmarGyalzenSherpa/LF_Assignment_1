@@ -409,6 +409,10 @@ img {
   margin-bottom: 5px;
   font-weight: 400;
 }
+
+.location-icon-wrapper {
+  padding: 0 5px;
+}
 .date {
   color: rgba(71, 81, 107, 1);
 }
