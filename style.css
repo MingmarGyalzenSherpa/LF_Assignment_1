@@ -444,6 +444,7 @@ img {
 }
 .education-card:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 .education-card-col-1 {
   display: flex;
@@ -569,6 +570,11 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.tool-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .tool-about {
