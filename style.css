@@ -346,6 +346,79 @@ img {
 
 /* ----------------- */
 
+/* skill */
+
+.skill__section-container__content {
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+}
+
+.skill__title {
+  width: 115px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.skill__logo {
+  width: 24px;
+  height: 24px;
+}
+
+.skill__content {
+  flex-grow: 1;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(146, 81, 247, 1);
+}
+
+.subskill {
+  background-color: var(--secondary-color);
+  min-height: 60px;
+  padding: 20px;
+}
+
+.subskill__list {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+
+.subskill--flex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.subskill--flex::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 50%;
+  position: absolute;
+  background-color: rgba(226, 230, 238, 1);
+  top: 20%;
+  left: 50%;
+}
+.subskill--flex__content {
+  width: 50%;
+}
+
+.subskill--flex__text {
+  width: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------------------------- */
+
 /* time-line */
 .timeline-container::before {
   content: "";
