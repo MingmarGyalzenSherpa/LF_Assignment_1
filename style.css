@@ -355,7 +355,7 @@ img {
   height: 40px;
 }
 
-.experience-card-col-1::before {
+.experience-timeline::before {
   content: "";
   position: absolute;
   display: block;
@@ -366,7 +366,7 @@ img {
   left: 0;
 }
 
-.experience-card-col-1::after {
+.experience-point-timeline::after {
   content: "";
   position: absolute;
   display: block;
