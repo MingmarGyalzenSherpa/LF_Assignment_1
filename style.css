@@ -682,3 +682,17 @@ img {
     padding: 30px;
   }
 }
+
+/* BEM CONVENTION */
+.aside-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-card__title {
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-align: start;
+  color: rgba(121, 129, 154, 1);
+  margin-bottom: 10px;
+}
