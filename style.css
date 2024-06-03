@@ -440,6 +440,10 @@ img {
   flex-basis: 400px;
   flex-grow: 1;
   padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.education-card:hover {
+  transform: scale(1.05);
 }
 .education-card-col-1 {
   display: flex;
