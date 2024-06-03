@@ -218,7 +218,7 @@ img {
   font-weight: 500;
   font-size: 1rem;
 }
-.card__latest-project__description {
+.card__latest-project__detail {
   color: rgba(121, 129, 154, 1);
   font-size: 0.8rem;
   font-weight: 400;
@@ -312,7 +312,7 @@ img {
 /* education card */
 
 .card__education {
-  flex-basis: 400px;
+  flex-basis: 200px;
   flex-grow: 1;
 }
 
@@ -475,4 +475,49 @@ img {
   position: absolute;
   top: -2px;
   left: -15px;
+}
+
+/* media queries */
+@media (max-width: 500px) {
+  .section-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  /* body */
+  body {
+    flex-direction: row;
+  }
+
+  /* experience card */
+  .card__experience {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card__experience__col {
+    flex-basis: 500px;
+    flex-grow: 1;
+  }
+
+  .card__experience__col--1 {
+    flex-basis: 280px;
+  }
+
+  /* subskill */
+  .skill__content {
+    flex-direction: row;
+  }
+
+  .subskill {
+    flex: 1;
+  }
+
+  /* tools */
+  .tool {
+    flex-grow: 1;
+    padding: 20px;
+  }
 }
