@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--primary-color);
+}
+
 /* -----------utility---------- */
 .container {
   position: relative;
@@ -289,8 +293,11 @@ img {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: all 0.2s ease-in;
 }
-
+.latest-project-card:hover {
+  transform: scale(1.05);
+}
 .latest-project-card-image {
   flex-basis: 49px;
   height: 49px;
