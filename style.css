@@ -148,11 +148,9 @@ img {
 .right {
   position: relative;
   padding-top: 60px;
-  background-color: grey;
 }
 
 .section-container {
-  background-color: red;
   width: 100%;
   padding-left: 10%;
   padding-bottom: 20px;
@@ -232,6 +230,121 @@ img {
 
 .card__latest-project__link {
 }
+
+/* experience card */
+.card__experience {
+  position: relative;
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(121, 129, 154, 1);
+}
+.card__experience__col--1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: rgb(243, 241, 241);
+  width: 1px;
+  height: 80%;
+  top: 25px;
+  left: 0;
+}
+
+.card__experience__col--1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url(./images/inner_timeline-icon.png);
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  left: -12px;
+  z-index: 9;
+}
+
+.card__experience__header {
+  display: flex;
+  gap: 10px;
+}
+.card__experience__logo {
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.card__experience__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__experience__title h2 {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.card__experience__title h3 {
+  color: rgba(46, 46, 72, 1);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.card__experience__header {
+}
+.card__experience__date-location {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.card__experience__date {
+  color: rgba(71, 81, 107, 1);
+}
+.card__experience__location-icon {
+  padding: 0 5px;
+}
+
+.card__experience__info {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/* education card */
+
+.card__education {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+.card__education__col-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.card__education__col-2 {
+}
+
+.card__education__logo {
+}
+
+.card__education__title {
+}
+
+.card__education__detail {
+  color: rgba(46, 46, 72, 1);
+  font-size: 0.9rem;
+}
+
+.card__education__date {
+  color: rgba(121, 129, 154, 1);
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+/* ----------------- */
 
 /* time-line */
 .timeline-container::before {
