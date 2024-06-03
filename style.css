@@ -417,6 +417,40 @@ img {
   text-align: center;
 }
 
+/* tools */
+
+.tools__section-container__content {
+  gap: 10px;
+}
+.tool {
+  padding: 0px;
+  flex-basis: 129px;
+  flex-grow: 1;
+  height: 129px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+.tool__img {
+  width: 48px;
+  height: 48px;
+}
+
+.tool__about {
+  text-align: center;
+}
+.tool__about__name {
+  font-size: 0.8rem;
+}
+
+.tool__about__desc {
+  font-weight: 400;
+  font-size: 0.6rem;
+}
 /* ---------------------------- */
 
 /* time-line */
@@ -431,7 +465,7 @@ img {
   height: 90%;
 }
 
-.timeline-container::after {
+.timeline-point-container::after {
   content: "";
   display: block;
   width: 50px;
