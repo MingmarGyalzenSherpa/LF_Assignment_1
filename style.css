@@ -681,4 +681,11 @@ img {
   .quote .author {
     padding: 30px;
   }
+
+  .sub-skill {
+    flex-direction: row;
+  }
+  .sub-skill > * {
+    flex: 1;
+  }
 }
